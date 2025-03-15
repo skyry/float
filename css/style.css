@@ -1,0 +1,80 @@
+.floatBlock1, .floatBlock2, .floatBlock3 {
+  height: 120px;
+  margin: 10px 0;   
+  background-color: gainsboro;
+  border: 1px solid black;
+  clear: both;
+}
+
+.floatBlock4, .floatBlock5 {
+  height: 232px;
+  margin: 10px 0;
+  background-color: gainsboro;
+  border: 1px solid black;
+  clear: both;
+}
+
+.floatBlock1__element--left, .floatBlock2__element--left, .floatBlock3__element--left {
+  float: left;
+  width: 250px;
+  height: 100px;
+  margin: 10px 20px;
+  background-color: gray;
+  border: 1px solid black;
+}
+
+.floatBlock1__element--right, .floatBlock2__element--right, .floatBlock3__element--right {
+  float: right;
+  width: 250px;
+  height: 100px;
+  margin: 10px 20px;
+  background-color: gray;
+  border: 1px solid black;
+}
+
+.floatBlock1__element--right, .floatBlock2__element--right, .floatBlock3__element--right {
+  float: right;
+  width: 250px;
+  height: 100px;
+  margin: 10px 20px;
+  background-color: gray;
+  border: 1px solid black;
+}
+
+.floatBlock4__element--right {
+  float: right;
+  width: 540px;
+  height: 212px;
+  margin: 10px 20px;
+}
+
+.floatBlock5__element--right {
+  margin: 10px auto;
+  width: 540px;
+  height: 212px;
+}
+
+.floatBlock4__element1--left, .floatBlock5__element1--left {
+  float: left;
+  width: 250px;
+  height: 212px;
+  background-color: gray;
+  border: 1px solid black; 
+}
+
+.floatBlock4__element2--right, .floatBlock5__element2--right {
+  float: right;
+  width: 250px;
+  height: 100px;
+  margin-bottom: 10px;
+  background-color: gray;
+  border: 1px solid black;  
+}
+
+.floatBlock4__element3--right, .floatBlock5__element3--right {
+  float: right;
+  width: 250px;
+  height: 100px;
+  background-color: gray;
+  border: 1px solid black;  
+}
